@@ -1,6 +1,16 @@
-import { getAllLIstingsRoute } from "./getAllLIstings";
-import { getListingRoute } from "./getLIstings";
+import { getAllListingsRoute } from "./getAllListings";
+import { getListingRoute } from "./getListings";
+import { addViewToListingRoute } from "./addViewToListing";
+import { getUserListingsRoute } from "./getUserListings";
+import { createNewListingRoute } from "./createNewListing";
+import { updateListingRoute } from "./updateListing";
+import { deleteListingRoute } from "./deleteListing";
 export default [
-    getAllLIstingsRoute,
-    getListingRoute
+    getAllListingsRoute,
+    getListingRoute,
+    addViewToListingRoute,
+    getUserListingsRoute,
+    createNewListingRoute,
+    updateListingRoute,
+    deleteListingRoute
 ];
